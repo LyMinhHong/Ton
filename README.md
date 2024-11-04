@@ -1,50 +1,51 @@
-# TON Link Test Task
+#TON Nhiệm vụ kiểm tra liên kết
 
-### Демо
+### Thử nghiệm
 
-Вы можете увидеть демо-версию приложения по следующей ссылке:
+Bạn có thể xem phiên bản demo của ứng dụng tại liên kết sau:
 
-[Демо-приложение](https://ton-test-task.vercel.app)
+[Ứng dụng demo](https://ton-test-task.vercel.app)
 
-## Описание
+## Sự miêu tả
 
-Одностраничное приложение, созданное с использованием Next.js и библиотеки ton-connect. Приложение позволяет пользователям подключать криптокошелёк TonKeeper, просматривать баланс и осуществлять переводы средств в TestNet сети TON с интуитивно понятным интерфейсом.
+Một ứng dụng một trang được xây dựng bằng Next.js và thư viện ton-connect. Ứng dụng này cho phép người dùng kết nối ví tiền điện tử TonKeeper, xem số dư của họ và thực hiện chuyển tiền sang mạng TestNet TON với giao diện trực quan.
 
-## Инструкция по использованию
+##Hướng dẫn sử dụng
 
-- **Подключение кошелька**:
-  - Для привязки своего кошелька TonKeeper нажмите кнопку "Привязать кошелек".
-  - В диалоговом окне выберите кошелек TonKeeper.
-  - Подтвердите привязку кошелька в приложении TonKeeper.
+- **Kết nối ví**:
+ - Để liên kết ví TonKeeper của bạn, hãy nhấp vào nút "Liên kết ví".
+ - Trong hộp thoại chọn ví TonKeeper.
+ - Xác nhận link ví trong ứng dụng TonKeeper.
 
-- **Отправка средств**:
-  - На главном экране нажмите кнопку "Отправить", чтобы перейти на страницу перевода средств.
-  - Введите необходимую сумму и адрес получателя в форму перевода, чтобы инициировать процесс отправки.
-  - Подтвердите перевод в кошельке TonKeeper.
+- **Gửi tiền**:
+ - Trên màn hình chính, nhấp vào nút "Gửi" để đến trang chuyển tiền.
+ - Nhập số tiền cần thiết và địa chỉ người nhận vào mẫu chuyển khoản để bắt đầu quá trình gửi.
+ - Xác nhận chuyển khoản trong ví TonKeeper của bạn.
 
-## Технологии
+## Công nghệ
 
-- **@tonconnect/ui-react** - Библиотека для интеграции с кошельком TonKeeper через TonConnect.
-- **next** - Фреймворк для создания серверных и статических приложений на React.
-- **tailwindcss** - Утилитарный CSS-фреймворк для создания пользовательских интерфейсов.
-- **typescript** - Язык программирования для строгой типизации в JavaScript.
+- **@tonconnect/ui-react** - Thư viện để tích hợp với ví TonKeeper thông qua TonConnect.
+- **next** - Một framework để tạo các ứng dụng tĩnh và phía máy chủ trong React.
+- **tailwindcss** - Một khung CSS tiện dụng để tạo giao diện người dùng.
+- **typescript** - Ngôn ngữ lập trình để gõ mạnh bằng JavaScript.
 
-## Установка и запуск приложения
+## Cài đặt và khởi chạy ứng dụng
 
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/roman-pixel/ton-test-task.git
+1. Sao chép kho lưu trữ:
+``` bash
+bản sao git https://github.com/roman-pixel/ton-test-task.git
 ```
 
-2.	Перейдите в каталог проекта
-   
-3.	Установите зависимости с помощью yarn или npm:
+2. Vào thư mục dự án
 
- ```bash
- npm install
+3. Cài đặt các phần phụ thuộc bằng sợi hoặc npm:
+
+ ``` bash
+ cài đặt npm
  ```
-4. Запустите приложение 
+4. Khởi chạy ứng dụng
 
-```bash
-npm run dev
+``` bash
+npm chạy dev
 ```
+
